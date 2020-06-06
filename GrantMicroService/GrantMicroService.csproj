@@ -27,11 +27,8 @@
 
   <ItemGroup>
     <Compile Remove="BatBuildCopyDll\**" />
-    <Compile Remove="Log\**" />
     <EmbeddedResource Remove="BatBuildCopyDll\**" />
-    <EmbeddedResource Remove="Log\**" />
     <None Remove="BatBuildCopyDll\**" />
-    <None Remove="Log\**" />
     <None Include="PackageIcon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
