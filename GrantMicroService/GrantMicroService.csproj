@@ -62,6 +62,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Log\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Rpc\Thrift\IGrantRpc\" />
   </ItemGroup>
