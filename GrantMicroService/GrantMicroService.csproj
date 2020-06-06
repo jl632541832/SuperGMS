@@ -27,8 +27,11 @@
 
   <ItemGroup>
     <Compile Remove="BatBuildCopyDll\**" />
+    <Compile Remove="Log\**" />
     <EmbeddedResource Remove="BatBuildCopyDll\**" />
+    <EmbeddedResource Remove="Log\**" />
     <None Remove="BatBuildCopyDll\**" />
+    <None Remove="Log\**" />
     <None Include="PackageIcon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -43,6 +46,14 @@
   <ItemGroup>
     <None Remove="Rpc\AssemblyTools\ClassBodyTemplate.txt" />
     <None Remove="Rpc\AssemblyTools\ClassTemplate.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Log\LogBase.cs" />
+    <Compile Include="Log\LogFactory.cs" />
+    <Compile Include="Log\LogInfo.cs" />
+    <Compile Include="Log\LogRequest.cs" />
+    <Compile Include="Log\LogStat.cs" />
   </ItemGroup>
 
   <ItemGroup>
