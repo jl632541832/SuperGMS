@@ -49,14 +49,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Log\LogBase.cs" />
-    <Compile Include="Log\LogFactory.cs" />
-    <Compile Include="Log\LogInfo.cs" />
-    <Compile Include="Log\LogRequest.cs" />
-    <Compile Include="Log\LogStat.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="Rpc\AssemblyTools\ClassBodyTemplate.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
